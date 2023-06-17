@@ -1,0 +1,588 @@
+.content img {
+    margin-top: 20px;
+    height: 180px !important;
+    min-width: 100%;
+    width: 200px !important;
+    border-radius: 4px;
+    box-shadow: 0 5px 10px rgb(235, 232, 232);
+}
+
+
+nav li a {
+    padding: 5px 20px !important;
+    color: #ffff !important;
+    font-size: 16px !important;
+    /* font-weight: bold !important; */
+    transition: all 0.5s ease !important;
+}
+
+nav {
+    /* display: flex !important; */
+    width: 100%;
+    position: fixed !important;
+    padding: 10px 30px !important;
+    z-index: 1000;
+    /* justify-content: space-around; */
+}
+
+nav a:hover {
+    color: black !important;
+    background-color: #78f5c1;
+    border-radius: 3px;
+}
+
+nav ul {
+    margin-right: 20px;
+}
+
+.navbar-brand h1 {
+    padding-left: 10px !important;
+    padding: 0;
+    margin: 0;
+    color: #ffff !important;
+    font-size: 25px !important;
+    font-weight: bold !important;
+    text-transform: uppercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.carousel img {
+    object-fit: cover !important;
+    width: 100% !important;
+    height: 550px !important;
+}
+
+
+.bars {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.carousel-indicators button {
+    width: 8px !important;
+    height: 8px !important;
+    border-radius: 50%;
+    background-color: rgb(71, 221, 129) !important;
+}
+
+.footer li {
+    list-style: none;
+    font-size: 13px;
+}
+
+
+.footer li a {
+    text-decoration: none;
+    color: rgb(201, 197, 197);
+}
+
+.footer li a:hover {
+    color: #78f5c1;
+}
+
+@media only screen and (max-width:1075px) {
+    .search-bar {
+        position: relative;
+        left: 10px;
+    }
+
+    .search-bar input {
+        width: 200px !important;
+    }
+
+    .search-bar {
+        position: absolute;
+        left: 15px !important
+    }
+
+    .submenu-1 {
+        top: 3.8rem;
+
+        position: relative;
+        display: none;
+        right: 0 !important;
+    }
+
+}
+
+@media only screen and (max-width:850px) {
+    .search-bar {
+        position: relative;
+        left: 10px;
+    }
+
+    .search-bar input {
+        width: 350px !important;
+    }
+
+    .search-bar {
+        position: absolute;
+        left: 15px !important
+    }
+
+}
+
+
+@media only screen and (max-width:912px) {
+    .search-bar {
+        position: relative;
+        left: 10px;
+    }
+
+    .search-bar input {
+        width: 350px !important;
+    }
+
+    .search-bar {
+        position: absolute;
+        left: 15px !important
+    }
+
+}
+
+
+@media only screen and (max-width:770px) {
+    .footer {
+        padding: 20px 0 30px 0;
+        text-align: center;
+    }
+
+    .Login {
+        display: none !important;
+    }
+
+    .back {
+        background-color: #fff;
+        width: 350px;
+        max-width: 100%;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+
+    .login {
+        padding-left: 16px !important;
+    }
+
+    .middle {
+        visibility: visible !important;
+        color: white !important;
+    }
+
+    .login button {
+        font-size: 20px;
+        padding: 5px !important;
+        background-color: transparent !important;
+        color: #ece8e8 !important;
+    }
+
+    .carousel-inner h5 {
+        display: block !important;
+    }
+
+    .carousel img {
+        object-fit: cover !important;
+        width: 100% !important;
+        height: 270px !important;
+    }
+
+    .carousel-indicators button {
+        width: 5px !important;
+        height: 5px !important;
+        border-radius: 50%;
+        background-color: rgb(255, 255, 255) !important;
+    }
+
+    .content img {
+        margin-top: 10px;
+        height: 180px !important;
+        min-width: 100%;
+        width: 200px;
+    }
+
+    .final p {
+        font-size: 10px;
+        color: #ffff;
+        padding: 10px;
+        text-align: center;
+        font-weight: 200;
+    }
+
+    .heading h1 {
+        text-transform: uppercase;
+        font-weight: 500;
+        margin-bottom: -1rem;
+        font-size: 18px;
+    }
+
+    .heading p {
+        font-size: 12px;
+        text-align: center;
+
+    }
+
+    .search-bar input {
+        width: 200px !important;
+    }
+
+    .search-bar {
+        margin-top: 15px;
+        position: absolute;
+        left: 15px !important
+    }
+
+    nav {
+        padding: 10px 10px !important;
+
+    }
+}
+
+
+.footer {
+    padding: 20px 30px;
+    /* text-align: center; */
+}
+
+.footer h4 {
+    color: #93d8ad;
+    font-size: 16px;
+}
+
+footer {
+    background-color: rgb(33, 44, 44);
+    margin-top: 30px;
+}
+
+
+.Links .copy {
+    font-size: 14px;
+    color: rgb(248, 248, 248);
+}
+
+.Links li {
+    padding: 5px;
+}
+
+.Links a:hover {
+    color: rgb(31, 141, 231) !important;
+    font-size: 16px;
+    transition: all 0.2s;
+}
+
+.final {
+    background-color: rgb(26, 25, 25);
+}
+
+.final p {
+    color: #ece8e8;
+    padding: 10px;
+    text-align: center;
+    font-weight: 200;
+}
+
+.heading {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.heading h1 {
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: -1rem;
+}
+
+.heading p {
+    text-align: center;
+
+}
+
+.search-bar {
+    position: relative;
+    left: 6rem;
+}
+
+.search-bar input {
+    width: 350px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 2.5rem;
+    font-size: 14px;
+    margin-right: -10rem;
+}
+
+.search-bar button {
+    background: #78f5c1;
+    color: #000000;
+    font-weight: 500;
+}
+
+.search-bar button:hover {
+    background: coral;
+}
+
+
+/* start-sub-menu-section-one-------------------------> */
+.submenu-1 {
+    top: 3.8rem;
+    display: block;
+    position: absolute;
+    display: none;
+    left: 53.5rem;
+}
+
+.submenu-1 li {
+    list-style: none;
+    background-color: #fffefe !important;
+}
+
+.submenu-1 ul {
+    position: absolute;
+    left: 0;
+    width: 200px;
+}
+
+.submenu-1 li a {
+    text-decoration: none;
+    width: 100%;
+    display: inline-block;
+    color: #000000 !important;
+    text-align: left;
+}
+
+nav li:hover .submenu-1 {
+    display: block !important;
+}
+
+/* end-sub-menu-section-one------------------------------------*/
+
+/* start-sub-menu-section-two--------------------------------. */
+.submenu-2 {
+    top: 3.8rem;
+    display: block;
+    position: absolute;
+    display: none;
+    left: 60rem;
+    transition: all 1s ease-in-out;
+}
+
+.navbar-nav .submenu-2 {
+    transition: all 3s ease !important;
+}
+
+.submenu-2 ul li {
+    list-style: none;
+    background-color: #5ca1fc !important;
+
+}
+
+.submenu-2 ul {
+    position: absolute;
+    left: 0;
+    width: 330px;
+}
+
+.submenu-2 li a {
+    text-decoration: none;
+    width: 100%;
+    display: inline-block;
+    color: #ffffff !important;
+    text-align: left;
+}
+
+nav li:hover .submenu-2 {
+    display: block !important;
+}
+
+/* end-sub-menu-section-two ---------------------------------------------->*/
+
+
+
+.login a:hover {
+    color: white ! important;
+    background-color: transparent;
+}
+
+.middle {
+    color: white !important;
+    text-decoration: none;
+    visibility: hidden;
+    margin-top: 4px;
+}
+
+.login a {
+    text-decoration: none;
+    color: #fff !important;
+    font-size: 20px;
+}
+
+.login-body {
+    position: absolute;
+    left: 71rem;
+    background-color: rgb(255, 255, 255);
+    top: 4rem;
+    width: 200px;
+    visibility: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.login-body li {
+    list-style: none;
+    border-bottom: 1px solid rgb(189, 187, 187);
+}
+
+.login-body li a {
+    display: block;
+    text-decoration: none;
+    text-align: left !important;
+    color: black !important;
+    width: 100% !important;
+    transition: none !important;
+}
+
+.login-body a:hover {
+    color: #b8b8b8 !important;
+}
+
+.login:hover .login-body {
+    visibility: visible;
+}
+
+
+/* <------------------------------------------------------------------------------------> */
+
+.Login {
+    background: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Login h1 {
+    font-family: sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 0;
+}
+
+.main {
+    background-color: #1E3466;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Header {
+    padding: 20px 40px;
+}
+
+.Header h1 {
+    margin: 0px;
+}
+
+.back {
+    background-color: #fff;
+    width: 350px;
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.myForm {
+    padding: 20px 40px;
+}
+
+.field {
+    position: relative;
+    margin-bottom: 8px;
+    padding-bottom: 15px;
+}
+
+.field label {
+    font-family: sans-serif !important;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.field input:not(.terms) {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 1px solid black;
+}
+
+.field span {
+    position: absolute;
+    right: 15px;
+    top: 35px;
+    font-size: 16px;
+    visibility: hidden;
+}
+
+.field small {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    visibility: hidden;
+}
+
+.field .Btn {
+    outline: none !important;
+    background-color: #1E3466;
+    color: white;
+    text-transform: capitalize;
+}
+
+.field.success input {
+    border-color: #2ecc71;
+}
+
+.field.error input {
+    border-color: red;
+}
+
+.field.success span.success {
+    color: #2ecc71;
+    visibility: visible;
+}
+
+.field.error span.error {
+    color: red;
+    visibility: visible;
+}
+
+.field.success span.error {
+    visibility: hidden;
+}
+
+.field.error span.success {
+    visibility: hidden;
+}
+
+.field.error small {
+    visibility: visible;
+    color: red;
+}
+
+.submited {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightcoral;
+}
+
+.submited h1 {
+    font-family: serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
