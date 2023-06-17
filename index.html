@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+            crossorigin="anonymous"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+            integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+            crossorigin="anonymous"></script>
+
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="all"> -->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/js/script.js">
+        <link rel="stylesheet" href="assets/js/bootstrap.js">
+        <title>Bootsrap</title>
+    </head>
+    <body>
+
+        <!-- NavBar section -->
+        <nav class="navbar navbar-expand-xl navbar-expand-lg bg-success navbar-dark;" style="line-height: 30px;">
+
+            <div class="navbar-brand">
+                <h1>Gallary Club</h1>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynav">
+                <span class="fa fa-bars bars"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mynav">
+                <!-- search-bar-area -->
+                <div class="search-bar">
+                    <form class="d-flex" role="search">
+                        <input class=" bar" type="search" placeholder="search" aria-label="Search" autofocus>
+                        <span class="fa fa-search"
+                            style="position: absolute;top: 10px;left: 12px;font-size: 15px;color: rgb(104, 102, 102);"></span>
+                    </form>
+                </div>
+                <!-- Nav-links  -->
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="">Home</a>
+                        <div class="submenu-1">
+                            <ul class="">
+                                <li><a href="#">Empty</a></li>
+                                <li><a href="#">Empty</a></li>
+                                <li><a href="#">Empty</a></li>
+                                <li><a href="#">Empty</a></li>
+                                <li><a href="#">Empty</a></li>
+                                <li><a href="#">Empty</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Contact</a>
+                        <div class="submenu-2">
+                            <ul class="">
+                                <li><a href="#">Empty</a></li>
+                                <li><a href="#">Empty</a></li>
+                                <li><a href="#">Empty</a></li>
+                                <li><a href="#">Empty</a></li>
+                                <li><a href="#">Empty</a></li>
+                                <li><a href="#">Empty</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Services</a>
+                        <div class="submenu-2">
+                            <ul class="">
+                                <li><a href="#">Empty-service</a></li>
+                                <li><a href="#">Empty-service</a></li>
+                                <li><a href="#">Empty-service</a></li>
+                                <li><a href="#">Empty-service</a></li>
+                                <li><a href="#">Empty-service</a></li>
+                                <li><a href="#">Empty-service</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">About Us</a>
+                        <div class="submenu-2">
+                            <ul class="">
+                                <li><a href="#">Empty-about</a></li>
+                                <li><a href="#">Empty-about</a></li>
+                                <li><a href="#">Empty-about</a></li>
+                                <li><a href="#">Empty-about</a></li>
+                                <li><a href="#">Empty-about</a></li>
+                                <li><a href="#">Empty-about</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+
+                <!-- login and signin area  -->
+                <div class="login">
+                    <a href="#">
+                        <span class="fa fa-user-circle-o"></span>
+                        <div class="login-body">
+                            <ul>
+                                <li><a href="login.html" target="_parent">Login</a></li>
+                                <li><a href="signin.html">create Account</a></li>
+                            </ul>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <!-- carousel-area -->
+        <div id="carouselExampleCaptions" class="carousel slide top" data-interval="3000s" id="myslider">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+                    aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/images/ten.jpg" alt="...">
+
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/nine.jpg" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/seven.jpg" class=" d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="assets/images/eight.jpg" class=" d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Fourth slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="assets/images/six.jpg" class=" d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Fourth slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+
+
+                <div class="carousel-item">
+                    <img src="assets/images/two.jpg" class=" d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Fifth slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- Headings area -->
+        <div class="heading">
+            <h1>Web gallery</h1><br>
+            <p>Inspirational designs, illustrations, and graphic elements <br>from the world’s best designers.
+                Want more inspiration? Browse our</p>
+        </div>
+        <!-- main- -->
+
+        <div class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <img src="assets/images/nine.jpg" class="img-fluid">
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <img src="assets/images/one.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <img src="assets/images/two.jpg" class="img-fluid">
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <img src="assets/images/three.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <img src="assets/images/two.jpg" class="img-fluid">
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <img src="assets/images/three.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <img src="assets/images/five.jpg" class="img-fluid">
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <img src="assets/images/one.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <img src="assets/images/ten.jpg" class="img-fluid">
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <img src="assets/images/seven.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <img src="assets/images/eight.jpg" class="img-fluid">
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <img src="assets/images/six.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <a href="assets/images/one.jpg" target="_blank"><img src="assets/images/one.jpg"
+                                class="img-fluid"></a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <img src="assets/images/five.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <img src="assets/images/two.jpg" class="img-fluid">
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <img src="assets/images/three.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <img src="assets/images/three.jpg" class="img-fluid">
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <img src="assets/images/two.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <img src="assets/images/one.jpg" class="img-fluid">
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <img src="assets/images/five.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer-section -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 col-md-6 footer">
+
+                        <h4>COMPANY</h4>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">License Agreement</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Partners</a></li>
+                        <li><a href="#">Abuse</a></li>
+                        <li><a href="#">Contact Support</a></li>
+
+                    </div>
+                    <div class="col-lg-2 col-md-6 footer">
+                        <h4>PRODUCT</h4>
+                        <li><a href="#">Download</a></li>
+                        <li><a href="#">400+ Features</a></li>
+                        <li><a href="#">Review</a></li>
+                        <li><a href="#">Affiliates</a></li>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Forum</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 footer">
+                        <h4>TEMPLATES</h4>
+                        <li><a href="#">Website Templates</a></li>
+                        <li><a href="#">WordPress Themes</a></li>
+                        <li><a href="#">HTML Templates</a></li>
+                        <li><a href="#">CSS Templates</a></li>
+                        <li><a href="#">Joomla Templates</a></li>
+                        <li><a href="#">WooCommerce Themes</a></li>
+                        <li><a href="#">HTML5 Templates</a></li>
+                        <li><a href="#">One Page Templates</a></li>
+
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 footer">
+
+                        <h4>NICEPAGE</h4>
+                        <li><a href="#">Website Builder</a></li>
+                        <li><a href="#">HTML Website Builder</a></li>
+                        <li><a href="#">WordPress Website Builder</a></li>
+                        <li><a href="#">Joomla Page Builder</a></li>
+                        <li><a href="#">WYSIWYG HTML Editor</a></li>
+                        <li><a href="#">Static Site Generator</a></li>
+                        <li><a href="#">HTML Code Generator</a></li>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 footer">
+                        <h4>WEB DESIGN</h4>
+                        <li><a href="#">Website Designs</a></li>
+                        <li><a href="#">Web Page Designs</a></li>
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">Web Page Designer</a></li>
+                        <li><a href="#">Landing Pages</a></li>
+                        <li><a href="#">Homepage Designs</a></li>
+                        <li><a href="#">Website Mockup</a></li>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 footer">
+                        <h4>GET IN Touch</h4>
+                        <div class="Links">
+                            <li><a href="#"><i class="fa fa-facebook"> </i> &nbsp Facebook</a></li>
+                            <li><a href="#"><i class="fa fa-twitter"> </i> &nbsp Twitter</a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"> </i> &nbsp LinkedIn</a></li>
+                            <li><a href="#"><i class="fa fa-instagram"> </i> &nbsp Instagram</a></li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="col-md-12 final">
+            <p>&copy 2023 Nicepage Free Website Builder Software - All Rights Reserved</p>
+        </div>
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>

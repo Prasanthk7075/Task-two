@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <title>Login</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 Login">
+                    <h1>Login page</h1>
+                </div>
+
+                <div class="col-md-6 main">
+                    <div class="back">
+                        <div class="Header">
+                            <h1>Rigister Here</h1>
+                        </div>
+
+                        <form action="index.html" class="myForm" id="form">
+                            <div class="field">
+                                <label>Username</label>
+                                <input type="text" id="uname" placeholder="Username">
+                                <span class="fa fa-check-circle success"></span>
+                                <span class="fa fa-exclamation-circle error"></span>
+                                <small>Error Message</small>
+                            </div>
+
+                            <div class="field">
+                                <label>Email</label>
+                                <input type="text" id="email" placeholder="name@123.com">
+                                <span class="fa fa-check-circle success"></span>
+                                <span class="fa fa-exclamation-circle error"></span>
+                                <small>Error Message</small>
+                            </div>
+
+                            <div class="field">
+                                <label>Password</label>
+                                <input type="password" id="pass1" placeholder="Password">
+                                <span class="fa fa-check-circle success"></span>
+                                <span class="fa fa-exclamation-circle error"></span>
+                                <small>Error Message</small>
+                            </div>
+
+                            <div class="field">
+                                <label>Confirm Password</label>
+                                <input type="password" id="pass2" placeholder="Confirm Password">
+                                <span class="fa fa-check-circle success"></span>
+                                <span class="fa fa-exclamation-circle error"></span>
+                                <small>Error Message</small>
+                            </div>
+
+                            <div class="field">
+                                <input type="checkbox" id="tandc" class="terms">
+                                <label> Agree to terms and conditions</label><br>
+                                <small>Error Message</small>
+                            </div>
+
+                            <div class="field">
+                                <input type="submit" value="submit" class="Btn">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
