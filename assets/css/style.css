@@ -1,10 +1,18 @@
-.content img {
+.wraper img {
     margin-top: 20px;
     height: 180px !important;
-    min-width: 100%;
-    width: 200px !important;
+    width: 100%;
     border-radius: 4px;
     box-shadow: 0 5px 10px rgb(235, 232, 232);
+    transition: scale 400ms;
+}
+
+.wraper {
+    overflow: hidden !important;
+}
+
+.wraper:hover img {
+    scale: 103%;
 }
 
 
@@ -425,6 +433,7 @@ nav li:hover .submenu-2 {
     visibility: hidden;
     padding: 0;
     margin: 0;
+    transition: all 0.3s ease;
 }
 
 .login-body li {
@@ -466,6 +475,8 @@ nav li:hover .submenu-2 {
     text-transform: uppercase;
     font-weight: 800;
     padding: 0;
+    animation-name: dropleft;
+    animation-duration: 1s;
 }
 
 .main {
@@ -474,6 +485,38 @@ nav li:hover .submenu-2 {
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+
+@keyframes dropdown {
+    0% {
+        opacity: 0.4;
+        transform: translate(0, -50%);
+    }
+
+    50% {
+        opacity: 0.8;
+        transform: translate(0, 20%);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes dropleft {
+    0% {
+        opacity: 0.4;
+        transform: translate(-100%, 0);
+    }
+
+    50% {
+        opacity: 0.8;
+        transform: translate(20%, 0);
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 .Header {
@@ -490,6 +533,8 @@ nav li:hover .submenu-2 {
     max-width: 100%;
     overflow: hidden;
     border-radius: 5px;
+    animation-name: dropdown;
+    animation-duration: 1s;
 }
 
 .myForm {
