@@ -58,8 +58,16 @@ nav ul {
     object-fit: cover !important;
     width: 100% !important;
     height: 550px !important;
+    transition: scale 400ms;
 }
 
+.carousel:hover img {
+    scale: 110%;
+}
+
+.carousel {
+    overflow: hidden !important;
+}
 
 .bars {
     font-size: 25px;
@@ -537,6 +545,17 @@ nav li:hover .submenu-2 {
     animation-duration: 1s;
 }
 
+.create {
+    text-align: center;
+}
+
+.create a {
+    text-decoration: none;
+    color: #1E3466;
+    font-size: 16px;
+    font-weight: 500;
+}
+
 .myForm {
     padding: 20px 40px;
 }
@@ -551,6 +570,8 @@ nav li:hover .submenu-2 {
     font-family: sans-serif !important;
     margin-bottom: 5px;
     display: inline-block;
+    font-size: 15px;
+    font-weight: 300;
 }
 
 .field input:not(.terms) {
@@ -560,13 +581,13 @@ nav li:hover .submenu-2 {
     outline: none;
     border-radius: 5px;
     font-size: 16px;
-    border: 1px solid black;
+    border: 1px solid rgb(185, 185, 185);
 }
 
 .field span {
     position: absolute;
     right: 15px;
-    top: 35px;
+    top: 37px;
     font-size: 16px;
     visibility: hidden;
 }
